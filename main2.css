@@ -1,0 +1,351 @@
+/*1>  font-family: "Josefin Sans",Arial,sans-serif;
+2>  font-family: "Great Vibes",cursive;
+3>"Work Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+4> poppins
+
+   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Poppins', sans-serif;*/
+
+   @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+div{
+    display:flex;
+}
+.nav_menu{
+    margin-bottom: 25px;
+}
+.nav_items a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.nav_items a:hover{
+    color: goldenrod;
+    transition: 0.7s;
+}
+.nav_logo{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    flex-direction: column;
+    padding-left:60px;
+    margin-top: -25px;
+}
+.navl1{
+    font-size: 10px;
+}
+.navl2{
+    font-size: 7px;
+    padding-left: 14px;
+}
+.navbar{
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.hero{
+    height: 78vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -200px;
+}
+.hero-wel{
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    color: goldenrod;
+    margin-top: 100px;
+    font-weight: 350;
+    
+}
+.hero-hd{
+    font-size: 40px;
+    font-weight: 350;
+    letter-spacing: 2px;
+    align-items: center;
+    text-align: center;
+}
+.hero-p1{
+    margin-top: 40px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+}
+.hero-sub{
+    align-items: center;
+    text-align: center;
+}
+.hero-order{
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.hero-pading{
+    padding: 20px;
+}
+.hero-font{
+    font-size: 16px;
+    font-weight: 150;
+}
+.hero-div1{
+    border: 1px solid goldenrod;
+    background-color: goldenrod;
+    margin-right: 4px;
+}
+.hero-div1:hover{
+    background-color: transparent;
+    color: rgb(238, 194, 111);
+    transition: 0.7s;
+}
+.hero-div2{
+    background-color: transparent;
+    color:white;
+    border: 1px solid white;
+    margin-left: 4px;
+}
+.hero-div2:hover{
+    background-color: goldenrod;
+    color: black;
+    border: 1px solid goldenrod;
+    transition: 0.5s;
+}
+.hr-color{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.white{
+    color: #fff;
+}
+
+.main-div{
+    flex-direction: column;
+    align-items: center;
+}
+.main-img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-div2{
+    height: 80vh;
+}
+.main-div2-width{
+    width: 50%;  
+}
+.width-div2-inside{
+    width: 70%;
+    background-color: transparent;
+    flex-direction: column;
+    height: 50vh;
+    margin-top: 90px;
+    padding-top: 50px;
+    position: relative;
+    left: -55px;
+}
+.div2-head2{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+.div2-head{
+    font-size: 55px;
+    font-family: "Great Vibes",cursive;
+    font-style: italic;
+    font-weight: 100;
+}
+.div2-font{
+    font-size: 18px;
+    color:gray;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 70pxs;
+}
+.blog{
+    padding:100px 16px;
+    flex-direction: column;
+    align-items:center;
+}
+.vr-black-bg{
+    background-color:black;
+}
+.c-white{
+    color: white;
+}
+.d{
+    font-family: "Great Vibes",cursive;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 100;
+}
+.c-yellow{
+    color:#c49b63;
+}
+.h-margin{
+    margin-top: -20px;
+}
+.best{
+    font-size: 40px;
+}
+.vr-sum{
+    font-size:16px;
+    padding:50px 450px;
+    text-align: center;
+}
+.c-grey{
+    color: grey;
+}
+.blog-images{
+    margin-top:50px;
+    justify-content: center;
+}
+.blog-images .img-container{
+    width:20%;
+    flex-direction: column;
+    align-items: center;
+}
+.imgdiv{
+    width:250px;
+    height:200px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.C-heading{
+    padding: 30px;
+    font-size: 16px;
+}
+.h3-size{
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    margin-top: -40px;
+}
+.m-2{
+    margin: 80px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.fd{
+    flex-direction: column;
+}
+.t-bt{
+    font-size: 30px;
+}
+.w-4{
+    width: 400px;
+}
+.form-row{
+    flex-direction: column;
+    margin-top:30px;
+}
+.sp-row{
+    justify-content: space-between;
+}
+.sp-row .form-row{
+    width:46%;
+}
+.form-row input{
+    padding:20px 0;
+    border:none;
+    border-bottom:1px solid grey;
+    outline:none;
+    width:100%;
+}
+.bg-o{
+    background-color: orange;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.ah:hover{
+    background-color: black;
+    border: 2px solid orange;
+    color: orange;
+}
+.sp-b{
+    justify-content: space-between;
+}
+.img{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.y-bg{
+    background-color: goldenrod;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 50%;
+    position: relative;
+    right: 28px;
+    text-align: center;
+}
+.inner_b{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(202, 149, 84);
+    position: absolute;
+    left: 150px;
+    bottom: 125px;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+.main-img2:hover .inner_b{
+    opacity:1;
+    transition: 0.5s;
+    transform:rotate(225deg);
+}
+.main-img2:hover i{
+    opacity:1;
+}
+.main-img2 i{
+    position:absolute;
+    left:48%;
+    top:48%;
+    transform:translate(-50%, -50%);
+    color:white;
+    opacity:0;
+    transition:0.7s;
+}
+.bbox{
+    height: 100px;
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.fd{
+    flex-direction: column;
+    width: 45%;
+
+}
+.ma{
+    margin-bottom: 15px;
+}
+.mr{
+    margin-bottom: 15px;
+}
+
